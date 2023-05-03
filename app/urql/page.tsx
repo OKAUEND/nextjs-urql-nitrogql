@@ -25,7 +25,7 @@ const useUrql = async () => {
   return result
 }
 
-export const UrqlPage = async () => {
+export const UrqlPage = () => {
   const result = useUrql()
 
   return <>TEST</>
