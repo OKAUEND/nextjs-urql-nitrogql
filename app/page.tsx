@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Inter } from "next/font/google"
 
 import { UrqlPage } from "./urql/page"
+import { RecoilUrql } from "./recoil/page"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -44,6 +45,8 @@ export default function Home() {
       </div>
 
       <UrqlPage />
+
+      <RecoilUrql />
 
       <div className='mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left'>
         <a
